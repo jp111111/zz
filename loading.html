@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			width: 200px;
+			height: 200px;
+			
+			.loading{
+				width: 400px;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.child1{
+				box-sizing: border-box;
+				width: 360px;
+				height: 360px;
+				border: 2px solid #000;
+				border-radius: 200px;
+				
+				border-top-color:transparent ;
+				border-bottom-color:darkred ;
+				border-left-color:red;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 180px);
+				top: calc(50% - 180px);
+				
+				
+				animation: xz 3s infinite 0s;
+			}
+			
+			.child2{
+				box-sizing: border-box;
+				width: 300px;
+				height: 300px;
+				border: 2px solid #000000;
+				border-radius: 200px;
+				
+				border-top-color:green ;
+				border-bottom-color:transparent ;
+				border-left-color:yellow;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 150px);
+				top: calc(50% - 150px);
+				animation: xz 2s infinite 0.4s;
+			}
+			
+			.child3{
+				box-sizing: border-box;
+				height: 240px;
+				width: 240px;
+				border: 2px solid #000;
+				border-radius: 200px;
+				
+				border-top-color:yellow ;
+				border-bottom-color:transparent ;
+				border-left-color:yellow;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 120px);
+				top: calc(50% - 120px);
+				animation: xz 2s infinite 0.3s;
+			}
+			
+			
+			
+			.child4{
+				box-sizing: border-box;
+				width: 200px;
+				height: 200px;
+				border: 2px solid #000000;
+				border-radius: 200px;
+				
+				border-top-color:blue ;
+				border-bottom-color:transparent ;
+				border-left-color:blue;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 100px);
+				top: calc(50% - 100px);
+				animation: xz 2s infinite .8s;
+			}
+			
+			.child5{
+				box-sizing: border-box;
+				width: 120px;
+				height: 120px;
+				border: 2px solid #000000;
+				border-radius: 200px;
+				
+				border-top-color:blue ;
+				border-bottom-color:transparent ;
+				border-left-color:blue;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 60px);
+				top: calc(50% - 60px);
+				animation: xz 3s infinite .8s;
+			}
+			.child6{
+				box-sizing: border-box;
+				width: 100px;
+				height: 100px;
+				border: 2px solid #000;
+				border-radius: 200px;
+				
+				border-top-color:pink ;
+				border-bottom-color:transparent ;
+				border-left-color:blue;
+				border-right-color:transparent ;
+				
+				position: absolute;
+				left: calc(50% - 50px);
+				top: calc(50% - 50px);
+				animation: xz 3s infinite .8s;
+			}
+			
+			@keyframes xz{
+				from{
+					transform: rotate(0deg);
+				}
+				to{
+					transform: rotate(360deg);
+				}
+			}
+		
+		</style>
+	</head>
+	<body>
+		<div class="loading">
+		<div class="child1">
+		<div class="child2">
+		<div class="child3">
+		<div class="child4">
+		<div class="child5">
+		<div class="child6">
+		</div>
+	</body>
+</html>
